@@ -1,0 +1,206 @@
+.left{
+    flex: 1;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+@media screen and (max-width: 700px) 
+{
+    .left2 {
+       display: flex;
+    flex-direction: column;
+    align-items: center; 
+    } 
+    .left3{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .left4{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .left5{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .left6{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .left7{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .left8{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+}
+.left a{
+    border: 0px;
+    text-decoration: none;
+    color: black;
+}
+
+.right{
+
+    flex: 5;
+}
+.container{
+display: flex;
+flex-direction: row;
+height: 100vh;
+}
+.top{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+}
+.Youtube{
+
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Youtube a{
+    text-decoration: none;
+    color: black;
+}
+.Info{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Search{
+    border: 1px solid ;
+    border-radius: 10PX;
+    width: 40%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding-left: 20px;
+}
+.All{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.All a {
+    text-decoration: none;
+    color: black;
+}
+.All h2 {
+    
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #0000000d;
+}
+.video{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.videozurag {
+    border-radius: 10px;
+    width: 300px;
+    height: 169px
+
+}
+.pfzurag {
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+}
+.v1{
+    display: flex;
+    flex-direction: column;
+}
+.dis{
+    display: flex;
+}
+h3{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+.left2{
+    display: flex;
+    border-radius: 15px;
+    padding: 10px;
+    
+
+}
+.left3{
+    display: flex;
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+.left4{
+    display: flex;
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+.left5{
+    display: flex;
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+.left6{
+    display: flex;    border-radius: 15px;
+    padding: 10px;
+    
+}
+.left7{
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.left8{
+    display: flex;
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+.hi{
+display: flex;
+flex-wrap: wrap;
+}
+
+.All h2:hover{
+    transition: 1s;
+    background-color: black;
+    color: white;
+}
+.left div:hover{
+    transition: 1s;
+    background-color: #0000000d;
+    color: white;
+}
+
